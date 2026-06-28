@@ -106,6 +106,14 @@
           <div class="field-label">How EMEA buyers reconcile it</div>
           <p>${fieldHTML(t.reconcile)}</p>
         </div>
+        <div class="field field-outcomes">
+          <div class="field-label">The outcomes when it&rsquo;s resolved</div>
+          <ul class="outcomes-list">
+            <li><span class="o-tag">Operational</span> ${fieldHTML(t.outcomes.op)}</li>
+            <li><span class="o-tag">Experience</span> ${fieldHTML(t.outcomes.ex)}</li>
+            <li><span class="o-tag">Strategic</span> ${fieldHTML(t.outcomes.st)}</li>
+          </ul>
+        </div>
       </div>`;
   }
 
